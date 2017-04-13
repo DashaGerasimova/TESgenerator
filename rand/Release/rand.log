@@ -1,0 +1,32 @@
+﻿Построение начато 27.12.2013 16:23:24.
+     1>Проект "C:\das\Си\rand\rand\rand.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\rand.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\rand.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt randomtes.cpp
+         randomtes.cpp
+     1>randomtes.cpp(59): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>randomtes.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>randomtes.cpp(120): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>randomtes.cpp(135): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\das\Си\rand\Release\rand.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\rand.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\das\Си\rand\Release\rand.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\das\Си\rand\Release\rand.lib" /MACHINE:X86 Release\rand.obj
+         Release\randomtes.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4067: неоднозначная точка входа; выбрана "mainCRTStartup"
+         Создание кода
+         Создание кода завершено
+         rand.vcxproj -> C:\das\Си\rand\Release\rand.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\das\Си\rand\Release\rand.exe;#1" /manifest Release\rand.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\rand.unsuccessfulbuild" удаляется.
+         Обращение к "Release\rand.lastbuildstate".
+     1>Построение проекта "C:\das\Си\rand\rand\rand.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.91
